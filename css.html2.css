@@ -1,0 +1,43 @@
+html{
+    background-color: rgb(255, 241, 241);
+    background-image: url(fundo1.jpg); background-size:200%;
+}
+header {
+    background-color: #ff0000;
+    text-align: center;
+    padding: 20px;
+  }
+p {
+    color: rgb(255, 255, 255);
+    text-align:justify;
+  
+        margin: 25px;
+}
+h1 {
+    color:rgb(255, 255, 255);
+    text-shadow: 4px 4px 15px rgba(236, 22, 22, 0.774);
+    text-align: center;}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f47d7d35;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+   
+      
+      li a:hover {
+        background-color: #fff6f6;
+      }
