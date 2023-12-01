@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 html{
-    background-image: url(background-inicio.jpg);
+    background-image: url(fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -124,7 +124,7 @@ ul {
     align-items: center;
     justify-items: center;
     z-index: -100;
-    background: url(fundo1.jpg) repeat center;
+    background: url(fundo.trabalho1.jpg) repeat center;
     background-size: cover;
 }
 
@@ -319,6 +319,58 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+/*Sessão Estudos*/
+
+.study{
+    /*PARA GERAR GRADIENTES, UTILIZAO O https://cssgradient.io/*/
+    background: rgb(0,0,0);
+    background: linear-gradient(to bottom,rgba(0,0,0,1) 0%, rgba(0,0,0,1) 2%, rgba(0,0,0,0.7987570028011204) 5%, rgba(0,0,0,0.6026785714285714) 10%, rgba(0,0,0,0.2049194677871149) 20%, rgba(0,0,0,0) 90%);
+}
+.study, .teams{
+    /*background: #1C1C1C;*/
+    color: #fff;
+}
+.study .title::before,
+.study .title::before{
+    background: #1C1C1C;
+}
+.study .title::after,
+.study .title::after{
+    /*background-color: #1C1C1C;*/
+    content: "Áreas estudadas";
+    background: none;
+}
+.study .serv-content .card{
+    width: calc(33% - 10px);
+    height: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 200px 100px;
+    cursor: pointer;
+    transition: all 1.3s ease;
+}
+
+.study .serv-content .card:hover{
+    background: #ffc001;
+}
+.study .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.study .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.study .serv-content .card ion-icon{
+    font-size: 70px;
+    color: #fff;
+}
+.study .serv-content .card:hover ion-icon{
+    color: #fff;
+}
+.study .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 
 /*  SESSÃO EQUIPE  */
 .teams .title::after{
@@ -350,7 +402,7 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
@@ -381,12 +433,25 @@ section .title::after{
 .contact .title::after{
     content: "Me Contrate";
     background: none;
+    color: #f4bf44;
+}
+.contact {
+
+    background-size:100%;
+}
+.contact .img{
+    opacity: 0.5;
+}
+.contact .img:hover{
+    opacity: 1.0;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
+
 .contact .contact-content{
     align-items: flex-start;
+  
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -488,6 +553,9 @@ footer{
     padding: 2% 5%;
     color: #fff;
     text-align: center;
+}
+foote{
+    background-image: url(fundo.trabalho1.jpg);
 }
 footer span a{
     color: #ffb300;
